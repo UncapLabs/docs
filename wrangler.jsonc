@@ -5,9 +5,9 @@
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "uncap-docs",
-	"compatibility_date": "2025-06-12",
+	"compatibility_date": "2025-06-25",
 	"assets": {
-		"directory": "./build"
+		"directory": "./build",
 	},
 	"observability": {
 		"enabled": true
