@@ -54,6 +54,8 @@ Uncap primarily uses Stability Pools to handle liquidations. Each collateral mar
 
 Liquidated borrowers typically face a 5% penalty and can claim any remaining collateral afterward. In redistribution scenarios, the maximum loss reaches 10% of debt (equivalent to 9.09% of collateral value).
 
+![How does liquidation work](/img/how_does_liquidation_work.svg)
+
 ## What compensation do liquidators receive?
 
 The protocol compensates liquidators for gas costs using this formula:
@@ -112,6 +114,8 @@ However, the flexibility of user-set rates may enable significantly lower costs 
 Given that 75% of interest revenue flows directly to USDU depositors, we anticipate deposit yields that match or exceed those offered by competing CDP protocols and collateral markets. The attractiveness of USDU and potential external adoption could drive overall borrowing rates lower than other platforms.
 
 ## What determines my Position's risk level?
+
+![Position risk level](/img/position_risk_level.svg)
 
 Two primary factors control your risk:
 

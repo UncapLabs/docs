@@ -24,6 +24,8 @@ When USDU trades above $1, borrowers tend to lower rates due to reduced redempti
 
 When USDU trades below $1, arbitrageurs initiate redemptions to restore the peg. Meanwhile, borrowers face increased redemption risk and raise rates, boosting USDU demand and supporting upward price movement.
 
+![How USDU maintains its peg](/img/how_USDU_maintains_peg.svg)
+
 ## How can I earn with Uncap?
 
 - **Stability Pool deposits**: Earn protocol revenue by depositing USDU into various Stability Pools

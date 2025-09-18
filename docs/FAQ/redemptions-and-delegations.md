@@ -14,6 +14,8 @@ A redemption involves swapping USDU for Bitcoin at face value (treating 1 USDU a
 
 The redeemer exchanges USDU for a mix of collaterals minus redemption fees. The redemption amount gets split among different collateral assets based on their current Stability Pool backing, starting with borrowers paying the lowest interest rates.
 
+![What are redemptions](/img/what_are_redemptions.svg)
+
 ## When can redemptions occur?
 
 Redemptions can happen anytime but usually only occur when profitable - typically when USDU price drops below $1 minus the current redemption fee.
@@ -42,6 +44,8 @@ Partially redeemed Positions with debt above 200 USDU continue operating normall
 Rather than letting redeemers choose collaterals, Uncap optimizes the process for economic safety by providing a collateral mix that enhances overall USDU backing.
 
 Redemptions target Positions with the lowest interest rates in each collateral market and continue until the full USDU amount gets exchanged. Redemptions can be partial or complete.
+
+![Redemptions across multiple collaterals](/img/redemptions_across_multiple_collaterals.svg)
 
 ## How is the collateral split determined?
 

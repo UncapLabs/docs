@@ -8,10 +8,8 @@ description: Frequently asked questions about the Uncap protocol, inspired by Li
 
 Welcome to the Uncap Frequently Asked Questions section. 
 
-This FAQ is freely inspired by the [Liquity v2 documentation](https://docs.liquity.org/v2-faq/general) but also includes specificities related to the Uncap protocol.
-
-:::info Inspiration
-This FAQ section draws inspiration from the comprehensive [Liquity v2 documentation](https://docs.liquity.org/v2-faq/general) while incorporating Uncap-specific features to reflect the protocol's unique characteristics and improvements.
+:::info Acknowledgment
+This FAQ section freely draws inspiration from the comprehensive [Liquity v2 documentation](https://docs.liquity.org/v2-faq/general) while incorporating Uncap-specific features to reflect the protocol's unique characteristics and improvements.
 :::
 
 ## What you'll find here
