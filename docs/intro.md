@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+slug: /
 title: Introduction to Uncap
 description: Learn about Uncap, the liquidity engine for Bitcoin DeFi, and how it enables productive Bitcoin utilization through borrowing and yield generation.
 ---

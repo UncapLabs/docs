@@ -22,11 +22,6 @@ const config: Config = {
     process.env.BASE_URL ||
     (process.env.NODE_ENV === "development" ? "/" : "/docs"),
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "BBY-Labs",
-  projectName: "uncap-docs",
-
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
@@ -43,7 +38,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          routeBasePath: "/",
+          routeBasePath: "/", // Docs will be served at root
         },
         blog: {
           showReadingTime: true,
@@ -51,8 +46,6 @@ const config: Config = {
             type: ["rss", "atom"],
             xslt: true,
           },
-          // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/BBY-Labs/uncap-docs/tree/main/",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -75,12 +68,12 @@ const config: Config = {
     ],
   ],
   themeConfig: {
-    image: "img/docusaurus-social-card.jpg", // TODO: change to uncap OG image
+    image: "img/uncap-social-card.png",
     navbar: {
       title: "Uncap Finance",
       logo: {
         alt: "Uncap Finance Logo",
-        src: "img/uncap.jpg",
+        src: "img/uncap.png",
       },
       items: [
         {
@@ -89,14 +82,14 @@ const config: Config = {
           position: "left",
           label: "Documentation",
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        // { to: "/blog", label: "Blog", position: "left" },
         {
           label: "Main Site",
           href: "https://uncap.finance",
           position: "right",
         },
         {
-          href: "https://github.com/BBY-Labs",
+          href: "https://github.com/UncapLabs",
           label: "GitHub",
           position: "right",
         },
@@ -109,9 +102,13 @@ const config: Config = {
           title: "Documentation",
           items: [
             {
-              label: "Getting Started",
-              to: "/intro",
+              label: "Intro",
+              to: "/",
             },
+            {
+              labal: "FAQ",
+              to: "/FAQ/index",
+            }
           ],
         },
         {
