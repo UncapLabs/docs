@@ -105,10 +105,6 @@ const config: Config = {
               label: "Intro",
               to: "/",
             },
-            {
-              labal: "FAQ",
-              to: "/FAQ/index",
-            }
           ],
         },
         {
