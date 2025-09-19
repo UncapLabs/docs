@@ -112,7 +112,7 @@ const config: Config = {
           items: [
             {
               label: "Twitter",
-              href: "https://x.com/UncapLabs",
+              href: "https://x.com/uncapfinance",
             },
             {
               label: "Telegram",
@@ -128,12 +128,8 @@ const config: Config = {
               href: "https://uncap.finance",
             },
             {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
               label: "GitHub",
-              href: "https://github.com/BBY-Labs",
+              href: "https://github.com/UncapLabs",
             },
           ],
         },
