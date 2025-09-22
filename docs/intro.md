@@ -36,12 +36,9 @@ Uncap Labs GmbH, the company currently developing Uncap, can't unilaterally modi
 
 ### Uncap Points System (Coming Soon)
 
-The Uncap points system is launching soon and will recognize and reward user activities that contribute to protocol growth and stability. Users will be able to accumulate points through:
+The Uncap points system is launching soon and will recognize and reward user activities that contribute (or have contributed) to protocol growth and stability.
 
-1. **🏦 Contributing USDU to the Stability Pool** - Help maintain protocol stability while earning rewards
-2. **💧 Supplying liquidity to the WBTC/USDU pool on Ekubo** - Provide trading liquidity for the ecosystem
-
-These activities will not only benefit individual users but also strengthen the overall protocol infrastructure and liquidity depth.
+These activities should not only benefit individual users but also strengthen the overall protocol infrastructure (e.g. facilitate liquidations) and liquidity depth on popular DEXes (e.g. USDU/WBTC/USDC pools)
 
 ## Future Development
 

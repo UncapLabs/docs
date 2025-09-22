@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: FAQ
+title: Intro
 description: Frequently asked questions about the Uncap protocol, inspired by Liquity v2 documentation with Uncap-specific details
 ---
 
