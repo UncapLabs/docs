@@ -82,7 +82,7 @@ const config: Config = {
           position: "left",
           label: "Documentation",
         },
-        // { to: "/blog", label: "Blog", position: "left" },
+        { to: "/blog", label: "Blog", position: "left" },
         {
           label: "Main Site",
           href: "https://uncap.finance",
@@ -111,8 +111,8 @@ const config: Config = {
           title: "Community",
           items: [
             {
-              label: "Twitter",
-              href: "https://x.com/uncapfinance",
+              label: "Support",
+              href: "https://t.me/UncapSupport_bot",
             },
             {
               label: "Telegram",

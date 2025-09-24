@@ -1,10 +1,8 @@
 # You can add individual team members here as needed
-maxime-servais:
-  name: Maxime Servais
-  title: Fullstack Developer
-  url: https://x.com/MaximeServais77
-  image_url: https://github.com/maxservais.png
+usamaro:
+  name: Usamaro
+  title: Marketing Bunny
+  image_url: /img/Usamaro_pp.jpg
   page: true
   socials:
-    x: MaximeServais77
-    github: maxservais
+    x: 0xUsamaro
