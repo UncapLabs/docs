@@ -26,11 +26,13 @@ Uncap builds upon Liquity v2's foundation, completely rewritten in Cairo and opt
 
 ## Governance and Security
 
-Uncap v1 protocol contract upgrades require approval from a Security Council comprising respected leaders within the Starknet ecosystem.
+Uncap v1 protocol contract upgrades require approval from a Security Council comprising respected leaders within the Starknet ecosystem. Uncap Labs GmbH, the company that developed Uncap, can't unilaterally modify protocol contracts.
 
-:::note Protocol Ownership
-Uncap Labs GmbH, the company that developed Uncap, can't unilaterally modify protocol contracts.
-:::
+**Security Council Members:**
+- **[Ready](https://www.ready.co/)**
+- **[Snapshot Labs](https://snapshot.box/#/about)**
+- **[Pragma](https://www.pragma.build/)**
+
 
 ## User Participation and Rewards
 
