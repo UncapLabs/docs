@@ -18,7 +18,7 @@ In its current iteration (Uncap v1), Uncap operates as a Bitcoin-centric borrowi
 
 ## Protocol Architecture
 
-Uncap builds upon Liquity v2's foundation, completely rewritten in Cairo and optimized for Starknet's architecture. Due to Starknet's non-EVM compatibility, Uncap is not part of Liquity's Friendly Fork Program.
+Uncap builds upon Liquity v2's foundation, completely rewritten in Cairo and optimized for Starknet's architecture. Starknet being non-EVM, Uncap is not part of Liquity's Friendly Fork Program.
 
 :::info Acknowledgment
 **We recognize and appreciate the foundational work of the Liquity team and community, whose innovations made Uncap's development possible.**
@@ -26,10 +26,10 @@ Uncap builds upon Liquity v2's foundation, completely rewritten in Cairo and opt
 
 ## Governance and Security
 
-Uncap v1 operates without formal governance structures. Protocol contract upgrades require approval from a Security Council comprising respected leaders within the Starknet ecosystem.
+Uncap v1 protocol contract upgrades require approval from a Security Council comprising respected leaders within the Starknet ecosystem.
 
 :::note Protocol Ownership
-Uncap Labs GmbH, the company currently developing Uncap, can't unilaterally modify protocol contracts. The protocol's ownership and decision-making processes will gradually transition toward decentralization over time.
+Uncap Labs GmbH, the company that developed Uncap, can't unilaterally modify protocol contracts.
 :::
 
 ## User Participation and Rewards
