@@ -2,3 +2,12 @@ hello:
   label: Hello
   permalink: /hello
   description: Hello tag description
+bitcoin:
+  label: Bitcoin
+  permalink: /bitcoin
+btcfi:
+  label: BTCFi
+  permalink: /btcfi
+starknet:
+  label: Starknet
+  permalink: /starknet

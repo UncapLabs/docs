@@ -96,14 +96,18 @@ const config: Config = {
       ],
     },
     footer: {
-      style: "dark",
+      style: "light",
       links: [
         {
           title: "Documentation",
           items: [
             {
-              label: "Intro",
+              label: "Docs",
               to: "/",
+            },
+            {
+              label: "Blog",
+              to: "/blog",
             },
           ],
         },
@@ -111,12 +115,12 @@ const config: Config = {
           title: "Community",
           items: [
             {
-              label: "Support",
-              href: "https://t.me/UncapSupport_bot",
+              label: "Twitter",
+              href: "https://x.com/uncapfinance",
             },
             {
-              label: "Telegram",
-              href: "https://t.me/antoine_argent",
+              label: "Support",
+              href: "https://t.me/UncapSupport_bot",
             },
           ],
         },
@@ -134,7 +138,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Uncap Finance. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Uncap Finance.`
     },
     prism: {
       theme: prismThemes.github,

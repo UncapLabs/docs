@@ -2,7 +2,7 @@
 slug: cheapest-way-to-borrow-bitcoin
 title: The cheapest way to borrow against your Bitcoin
 authors: [usamaro]
-tags: [bitcoin, btcfi, usdu, stablecoin, liquidity, starknet]
+tags: [bitcoin, btcfi, starknet]
 description: Introducing USDU, the premier BTC-backed stablecoin, and a powerful liquidity engine built to power the BTCFi ecosystem on Starknet.
 image: /img/Uncap_banner.jpeg
 ---
@@ -31,11 +31,11 @@ While we are proud of the achievement, USDU is the foundation stone, not the fin
 
 This engine creates a virtuous cycle, a flywheel, at the center of BTCFi:
 
-   1. **Borrowing fuels liquidity**: A portion of the interest paid by USDU borrowers is automatically directed to incentivize liquidity pools on Ekubo for USDU pairs (e.g., WBTC/USDU).
+1.  **Borrowing fuels liquidity**: A portion of the interest paid by USDU borrowers is automatically directed to incentivize liquidity pools on Ekubo for USDU pairs (e.g., WBTC/USDU).
 
-   2. **Deep liquidity enables utility**: This creates a robust and reliable market, making USDU highly usable for trading and earning yield across the ecosystem.
+2.  **Deep liquidity enables utility**: This creates a robust and reliable market, making USDU highly usable for trading and earning yield across the ecosystem.
 
-   3. **Trading fees strengthen the protocol**: Fees generated from this trading activity are then used to grow the protocol's treasury, which in turn can mint more USDU to further deepen on-chain liquidity.
+3.  **Trading fees strengthen the protocol**: Fees generated from this trading activity are then used to grow the protocol's treasury, which in turn can mint more USDU to further deepen on-chain liquidity.
 
 This flywheel is designed to make USDU the most liquid and useful BTC-backed stablecoin in DeFi. We are working on our initial integrations with top protocols to unlock these new yield opportunities.
 
