@@ -170,3 +170,34 @@ If liquidations exceed Stability Pool capacity, the system provides two fallback
 2. **Redistribution**: Triggers redistribution of the Position's entire debt and collateral among all borrowers in that collateral market, proportional to their collateral amounts
 
 Liquidators can choose their preferred approach for handling debt beyond Stability Pool coverage.
+
+## What are borrowing restrictions?
+
+### Critical Threshold and Collateral Shutdown
+
+Uncap is designed to protect each borrow market from becoming undercollateralized in the event of a collapsing collateral asset. The protocol achieves this by restricting debt creation and collateral withdrawals in unhealthy markets, and ultimately shutting down the entire market as a last resort.
+
+To accomplish this, Uncap implements two safety thresholds based on the system's Total Collateralization Ratio (TCR), with potentially different thresholds applied to various BTC collateral types:
+
+- Critical Threshold (CT)
+- Shutdown Threshold (ST)
+
+### Critical Threshold Restrictions
+
+When the TCR of a borrow market falls below its Critical Threshold (150% for WBTC), the protocol prohibits the creation of new debt in that market.
+
+Collateral withdrawals remain permitted only when accompanied by a debt repayment of equal or greater value—meaning the action must improve both the individual Collateral Ratio (CR) and the overall TCR. During this period, borrowers can continue to repay debt or add collateral to their positions.
+
+The liquidation threshold (maximum Loan-to-Value ratio) for individual Positions remains unchanged, preventing unnecessary liquidation of healthy borrowers.
+
+### Shutdown Threshold and Market Closure
+
+If the TCR drops below the Shutdown Threshold (110% for WBTC), or in the event of an oracle failure, the protocol triggers a shutdown of the affected borrow market. This permanently disables all borrowing operations except for closing existing Positions.
+
+Upon triggering a collateral shutdown, the protocol activates and incentivizes single-collateral redemptions to repay the entire debt of the affected market as quickly as possible.
+
+Users can redeem USDU against the respective collateral at a more favorable exchange rate than the current oracle price, with the standard redemption fee replaced by a 2% discount. As long as USDU isn't trading significantly above its peg, this creates a strong arbitrage opportunity, incentivizing market participants to redeem all USDU from the distressed borrow market until its debt reaches zero.
+
+### Risk Disclosure
+
+Despite these protective mechanisms and additional incentives, there is no guarantee that the system will successfully clear all debt backed by the affected collateral if its value has declined extremely or continues to decline rapidly. In a worst-case scenario, the system may end up with a portion of its USDU supply that is not fully backed by collateral.
