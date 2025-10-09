@@ -4,10 +4,11 @@ title: The cheapest way to borrow against your Bitcoin
 authors: [usamaro]
 tags: [bitcoin, btcfi, starknet]
 description: Introducing USDU, the premier BTC-backed stablecoin, and a powerful liquidity engine built to power the BTCFi ecosystem on Starknet.
-image: /img/Uncap_banner.jpeg
 ---
 
 # Intro
+
+![Uncap Banner](/img/Uncap_banner.jpeg)
 
 This week marks a major milestone as we officially unveil Uncap. We are building the liquidity layer for BTCFi on Starknet, as we believe it to be the place where the BTC economy will flourish.
 
