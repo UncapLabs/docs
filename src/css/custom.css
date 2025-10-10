@@ -200,6 +200,27 @@ h6 {
   color: var(--ifm-color-primary);
 }
 
+/* Ensure Sora font is used in navbar/header elements */
+.navbar {
+  font-family: "Sora", sans-serif;
+}
+
+.navbar__title {
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+}
+
+.navbar__item,
+.navbar__link {
+  font-family: "Sora", sans-serif;
+}
+
+/* Blog-specific header elements */
+.blog-wrapper header,
+.blog-wrapper .navbar {
+  font-family: "Sora", sans-serif;
+}
+
 /* Feature cards styling */
 .features {
   background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
