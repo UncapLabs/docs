@@ -1,6 +1,6 @@
 ---
 slug: launch-guide-borrow-bitcoin-cheapest-rates
-title: "Launch guide: How to borrow against your Bitcoin at the cheapest rates"
+title: "How to borrow against your Bitcoin at the cheapest rates"
 authors: [usamaro]
 tags: [bitcoin, btcfi, starknet, stablecoin]
 description: Born from the conviction that Bitcoin can do more, Uncap is built to return Bitcoin to its peer-to-peer roots and turn it from a dormant asset into the productive backbone of a new financial system.
