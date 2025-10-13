@@ -48,7 +48,7 @@ You can create multiple Positions with different LTV strategies to diversify you
 
 ## How does liquidation work?
 
-Positions get liquidated when their LTV exceeds the maximum threshold (90.91% for WBTC).
+Positions get liquidated when their LTV exceeds the maximum threshold (86.96%% for WBTC).
 
 Uncap primarily uses Stability Pools to handle liquidations. Each collateral market maintains its own Stability Pool that absorbs liquidated debt and collateral. When the Stability Pool lacks sufficient funds, the protocol employs Just-In-Time liquidations or redistributes debt and collateral across other borrowers in that market.
 
@@ -66,7 +66,7 @@ The 10 STRK comes from your refundable gas deposit, while the variable portion c
 
 ## What is the maximum Loan-To-Value ratio?
 
-WBTC positions can reach a maximum LTV of 90.91%.
+WBTC positions can reach a maximum LTV of 86.96%.
 
 ## What is the refundable gas deposit?
 
