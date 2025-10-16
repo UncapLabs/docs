@@ -21,14 +21,24 @@ const sidebars: SidebarsConfig = {
       label: "Introduction",
     },
     {
-      type: "category",
-      label: "FAQ",
-      items: [
-        "FAQ/index",
-        "FAQ/borrowing-liquidations",
-        "FAQ/redemptions-and-delegations",
-        "FAQ/usdu-and-earn",
-      ],
+      type: "doc",
+      id: "FAQ/index",
+      label: "The Uncap protocol",
+    },
+    {
+      type: "doc",
+      id: "FAQ/borrowing-liquidations",
+      label: "Borrowing & Liquidations",
+    },
+    {
+      type: "doc",
+      id: "FAQ/redemptions-and-delegations",
+      label: "Redemptions & Delegations",
+    },
+    {
+      type: "doc",
+      id: "FAQ/usdu-and-earn",
+      label: "USDU & Earn",
     },
     // {
     //   type: 'category',
