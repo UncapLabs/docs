@@ -6,8 +6,6 @@ description: Frequently asked questions about the Uncap protocol, inspired by Li
 
 # The Uncap Protocol
 
-Uncap is a Bitcoin-centric borrowing protocol that enables users to mint USDU, a USD-pegged stablecoin, by depositing BTC as collateral. The protocol operates through four core mechanisms that work together to maintain stability and provide yield opportunities.
-
 ## Borrowing
 
 Users deposit WBTC (or other Bitcoin-derived assets) as collateral to mint USDU stablecoins through Positions—individual loan management vaults represented as NFTs. What makes Uncap unique is that borrowers set their own interest rates rather than accepting algorithmically-determined rates.
