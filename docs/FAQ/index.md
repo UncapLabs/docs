@@ -14,6 +14,8 @@ Each Position requires a minimum debt of 200 USDU and can reach up to 86.96% loa
 
 Borrowing costs include ongoing interest based on your self-set rate plus an upfront fee equivalent to 7 days of average market interest. This user-controlled rate system creates a market-driven lending environment where rates reflect actual supply and demand.
 
+![Borrow screenshot](/img/Borrow_screenshot.png)
+
 ## Liquidations
 
 Positions are liquidated when their LTV exceeds the maximum threshold (86.96% for WBTC). Uncap primarily uses Stability Pools to handle liquidations—each collateral market maintains its own pool that absorbs liquidated debt and distributes collateral to depositors.
@@ -31,6 +33,8 @@ The Stability Pool allows USDU holders to earn yield by providing liquidation co
 - **Liquidation gains**: Your USDU purchases collateral from liquidated positions at approximately 5% discount
 
 Each collateral type has its own Stability Pool, allowing depositors to choose their risk exposure. There are no lockup periods—you can withdraw deposits anytime. The yield often exceeds average borrowing rates when less than 75% of USDU supply is deposited, creating attractive real yield opportunities without token emissions.
+
+![Stability Pool screenshot](/img/SP_screenshot.png)
 
 ## Redemptions
 
