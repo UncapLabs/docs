@@ -14,3 +14,11 @@ alexandre:
   page: true
   socials:
     x: alexcollette1
+
+antoine:
+  name: Antoine
+  title: Co-Founder
+  image_url: /img/antoine_pp.jpg
+  page: true
+  socials:
+    x: asparenb
