@@ -4,7 +4,7 @@ title: The Uncap protocol
 description: Frequently asked questions about the Uncap protocol, inspired by Liquity v2 documentation with Uncap-specific details
 ---
 
-# The Uncap Protocol
+# ⚙️ The Uncap Protocol
 
 ## Borrowing
 

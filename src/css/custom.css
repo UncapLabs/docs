@@ -65,6 +65,9 @@
   
   /* Code blocks */
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  
+  /* Content width */
+  --ifm-container-width: 1000px;
 }
 
 /* Dark mode adjustments */
@@ -284,6 +287,7 @@ h6 {
 
 /* Sidebar improvements */
 .menu__link {
+  font-size: 0.875rem;
   font-weight: 400;
   border-radius: 0.5rem;
   transition: all 0.2s ease;

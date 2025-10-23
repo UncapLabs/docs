@@ -4,7 +4,7 @@ title: Redemptions and Delegations
 description: Understanding redemptions, delegation mechanisms, and how they work on Uncap
 ---
 
-# Redemptions and Delegation
+# 🔄 Redemptions and Delegation
 
 ## What are redemptions?
 

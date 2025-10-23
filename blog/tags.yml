@@ -11,3 +11,18 @@ btcfi:
 starknet:
   label: Starknet
   permalink: /starknet
+stablecoin:
+  label: Stablecoin
+  permalink: /stablecoin
+borrowing:
+  label: Borrowing
+  permalink: /borrowing
+usdu:
+  label: USDU
+  permalink: /usdu
+redemptions:
+  label: Redemptions
+  permalink: /redemptions
+bridging:
+  label: Bridging
+  permalink: /bridging

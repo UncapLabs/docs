@@ -4,7 +4,7 @@ title: USDU & Earn
 description: Learn about USDU stablecoin, earning opportunities, and yield generation on Uncap
 ---
 
-# USDU & Earn
+# 📈 USDU & Earn
 
 ## What is USDU?
 

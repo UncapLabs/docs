@@ -16,29 +16,41 @@ const sidebars: SidebarsConfig = {
   // Manual sidebar configuration to control ordering
   tutorialSidebar: [
     {
-      type: "doc",
-      id: "intro",
-      label: "Introduction",
+      type: "category",
+      label: "Intro",
+      items: [
+        {
+          type: "doc",
+          id: "intro",
+          label: "👋 Introduction",
+        },
+        {
+          type: "doc",
+          id: "FAQ/index",
+          label: "⚙️ The Uncap protocol",
+        },
+      ],
     },
     {
-      type: "doc",
-      id: "FAQ/index",
-      label: "The Uncap protocol",
-    },
-    {
-      type: "doc",
-      id: "FAQ/borrowing-liquidations",
-      label: "Borrowing & Liquidations",
-    },
-    {
-      type: "doc",
-      id: "FAQ/redemptions-and-delegations",
-      label: "Redemptions & Delegations",
-    },
-    {
-      type: "doc",
-      id: "FAQ/usdu-and-earn",
-      label: "USDU & Earn",
+      type: "category",
+      label: "How to",
+      items: [
+        {
+          type: "doc",
+          id: "FAQ/borrowing-liquidations",
+          label: "💰 Borrowing & Liquidations",
+        },
+        {
+          type: "doc",
+          id: "FAQ/redemptions-and-delegations",
+          label: "🔄 Redemptions & Delegations",
+        },
+        {
+          type: "doc",
+          id: "FAQ/usdu-and-earn",
+          label: "📈 USDU & Earn",
+        },
+      ],
     },
     // {
     //   type: 'category',

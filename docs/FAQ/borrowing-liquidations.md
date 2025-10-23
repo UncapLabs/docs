@@ -4,7 +4,7 @@ title: Borrowing & Liquidations
 description: Complete guide to borrowing USDU, managing positions, and understanding liquidations on Uncap
 ---
 
-# Borrowing & Liquidations
+# 💰 Borrowing & Liquidations
 
 ## What makes borrowing on Uncap different?
 
