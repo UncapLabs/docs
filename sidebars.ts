@@ -52,6 +52,22 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
+    {
+      type: "category",
+      label: "Technical",
+      items: [
+        {
+          type: "doc",
+          id: "Technical/audit",
+          label: "🔒 Audit",
+        },
+        {
+          type: "doc",
+          id: "Technical/contracts",
+          label: "📜 Contracts",
+        },
+      ],
+    },
     // {
     //   type: 'category',
     //   label: 'Tutorial - Basics',
