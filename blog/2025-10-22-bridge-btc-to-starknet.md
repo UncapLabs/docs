@@ -32,6 +32,10 @@ Before bridging, you'll need a Starknet wallet. We recommend [Ready Wallet](http
 - **LBTC:** Visit [Lombard](https://www.lombard.finance/app/stake)
 - **TBTC:** Use [Threshold](https://dashboard.threshold.network/tBTC/mint)
 
+### From a Centralized Exchange
+
+You can bridge BTC directly from a centralized exchange using [Layerswap](https://layerswap.io/app?from=BITCOIN_MAINNET&to=STARKNET_MAINNET&fromExchange=BINANCE&fromAsset=BTC&toAsset=WBTC)
+
 ## Swapping Between Assets
 
 Once your assets are on Starknet, use [AVNU](https://app.avnu.fi/en) to swap between different tokens and BTC variants.
