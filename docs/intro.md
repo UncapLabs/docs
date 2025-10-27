@@ -16,7 +16,7 @@ In its current iteration (Uncap v1), Uncap operates as a Bitcoin-centric borrowi
 - **🏦 Borrow USDU**: Mint stablecoins against your Bitcoin collateral
 - **📈 Earn yield**: Generate returns by depositing USDU into the Stability Pool
 
-## Protocol Architecture
+## Protocol architecture
 
 Uncap builds upon Liquity v2's foundation, completely rewritten in Cairo and optimized for Starknet's architecture. Starknet being non-EVM, Uncap is not part of Liquity's Friendly Fork Program.
 
@@ -24,7 +24,7 @@ Uncap builds upon Liquity v2's foundation, completely rewritten in Cairo and opt
 **We recognize and appreciate the foundational work of the Liquity team and community, whose innovations made Uncap's development possible. Learn more in the [Liquity documentation](https://docs.liquity.org/v2-faq/general).**
 :::
 
-## Governance and Security
+## Governance and security
 
 Uncap v1 protocol contract upgrades require approval from a Security Council comprising respected leaders within the Starknet ecosystem. Uncap Labs GmbH, the company that developed Uncap, can't unilaterally modify protocol contracts.
 
@@ -34,15 +34,21 @@ Uncap v1 protocol contract upgrades require approval from a Security Council com
 - **[Pragma](https://www.pragma.build/)**
 
 
-## User Participation and Rewards
+## User participation and rewards
 
-### Uncap Points System (Coming Soon)
+### Uncap points system
 
-The Uncap points system is launching soon and will recognize and reward user activities that contribute (or have contributed) to protocol growth and stability.
+The Uncap points system rewards user activities that contribute to protocol growth but also strengthen the overall protocol infrastructure (e.g. facilitate liquidations) and liquidity depth on popular DEXes (e.g. USDU/USDC pool)
 
-These activities should not only benefit individual users but also strengthen the overall protocol infrastructure (e.g. facilitate liquidations) and liquidity depth on popular DEXes (e.g. USDU/WBTC/USDC pools)
+With a fixed supply of only 21 million points ever to be distributed, each point represents a scarce recognition of your participation in the ecosystem.
 
-## Future Development
+Points are distributed every Friday.
+
+### Referrals
+
+Grow the Uncap ecosystem and earn rewards by referring new users. When you refer someone to Uncap, you'll earn 10% of all points they earn through their protocol activities. This creates a win-win scenario where you benefit from expanding the community while helping others discover the protocol.
+
+## Future development
 
 Details about **Uncap v2** will be revealed soon. Think **ve(3,3)**.
 

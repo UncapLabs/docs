@@ -46,7 +46,7 @@ Redemption fees depend on a dynamic `baseRate` that increases with each redempti
 
 ---
 
-## Explore Further
+## Explore further
 
 For detailed information about specific aspects of the protocol, see:
 
