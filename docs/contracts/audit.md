@@ -1,7 +1,7 @@
 ---
 id: audit
 sidebar_position: 1
-slug: contracts/audit
+slug: /contracts/audit
 title: Audit
 description: Security audits for Uncap Finance protocol
 ---
