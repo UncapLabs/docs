@@ -26,7 +26,7 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: "doc",
-          id: "FAQ/index",
+          id: "uncap-protocol",
           label: "⚙️ The Uncap protocol",
         },
       ],
@@ -37,17 +37,17 @@ const sidebars: SidebarsConfig = {
       items: [
         {
           type: "doc",
-          id: "FAQ/borrowing-liquidations",
+          id: "how-to/borrowing-liquidations",
           label: "💰 Borrowing & Liquidations",
         },
         {
           type: "doc",
-          id: "FAQ/redemptions-and-delegations",
+          id: "how-to/redemptions-and-delegations",
           label: "🔄 Redemptions & Delegations",
         },
         {
           type: "doc",
-          id: "FAQ/usdu-and-earn",
+          id: "how-to/usdu-and-earn",
           label: "📈 USDU & Earn",
         },
       ],
@@ -58,12 +58,12 @@ const sidebars: SidebarsConfig = {
       items: [
         {
           type: "doc",
-          id: "Technical/audit",
+          id: "technical/technical-audit",
           label: "🔒 Audit",
         },
         {
           type: "doc",
-          id: "Technical/contracts",
+          id: "technical/technical-contracts",
           label: "📜 Contracts",
         },
       ],

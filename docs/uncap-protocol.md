@@ -1,5 +1,7 @@
 ---
+id: uncap-protocol
 sidebar_position: 1
+slug: /uncap-protocol
 title: The Uncap protocol
 description: Frequently asked questions about the Uncap protocol, inspired by Liquity v2 documentation with Uncap-specific details
 ---
@@ -50,6 +52,6 @@ Redemption fees depend on a dynamic `baseRate` that increases with each redempti
 
 For detailed information about specific aspects of the protocol, see:
 
-- **[Borrowing & Liquidations](./borrowing-liquidations)** - Complete guide to borrowing USDU, managing positions, and understanding liquidations
-- **[USDU & Earn](./usdu-and-earn)** - Information about USDU stablecoin and earning opportunities  
-- **[Redemptions & Delegations](./redemptions-and-delegations)** - Details on redemption mechanisms and delegation features
+- **[Borrowing & Liquidations](./how-to/borrowing-liquidations)** - Complete guide to borrowing USDU, managing positions, and understanding liquidations
+- **[USDU & Earn](./how-to/usdu-and-earn)** - Information about USDU stablecoin and earning opportunities  
+- **[Redemptions & Delegations](./how-to/redemptions-and-delegations)** - Details on redemption mechanisms and delegation features

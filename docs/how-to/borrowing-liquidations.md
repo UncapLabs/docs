@@ -1,5 +1,7 @@
 ---
+id: borrowing-liquidations
 sidebar_position: 3
+slug: /how-to/borrowing-liquidations
 title: Borrowing & Liquidations
 description: Complete guide to borrowing USDU, managing positions, and understanding liquidations on Uncap
 ---

@@ -1,5 +1,7 @@
 ---
+id: redemptions-and-delegations
 sidebar_position: 5
+slug: /how-to/redemptions-and-delegations
 title: Redemptions and Delegations
 description: Understanding redemptions, delegation mechanisms, and how they work on Uncap
 ---

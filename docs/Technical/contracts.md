@@ -1,5 +1,7 @@
 ---
+id: technical-contracts
 sidebar_position: 2
+slug: /technical/contracts
 title: Contracts
 description: Deployed smart contracts for Uncap Finance
 ---

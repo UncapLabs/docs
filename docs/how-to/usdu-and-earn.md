@@ -1,5 +1,7 @@
 ---
+id: usdu-and-earn
 sidebar_position: 4
+slug: /how-to/usdu-and-earn
 title: USDU & Earn
 description: Learn about USDU stablecoin, earning opportunities, and yield generation on Uncap
 ---

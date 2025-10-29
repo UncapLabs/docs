@@ -1,5 +1,7 @@
 ---
+id: technical-audit
 sidebar_position: 1
+slug: /technical/audit
 title: Audit
 description: Security audits for Uncap Finance protocol
 ---
