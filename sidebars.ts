@@ -63,7 +63,7 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: "doc",
-          id: "contracts/deployed-contracts",
+          id: "contracts/contracts",
           label: "📜 Deployed Contracts",
         },
       ],
