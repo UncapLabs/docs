@@ -1,5 +1,5 @@
 ---
-id: technical-audit
+id: audit
 sidebar_position: 1
 slug: /technical/audit
 title: Audit

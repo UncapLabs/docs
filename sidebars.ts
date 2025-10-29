@@ -58,12 +58,12 @@ const sidebars: SidebarsConfig = {
       items: [
         {
           type: "doc",
-          id: "technical/technical-audit",
+          id: "technical/audit",
           label: "🔒 Audit",
         },
         {
           type: "doc",
-          id: "technical/technical-contracts",
+          id: "technical/contracts",
           label: "📜 Contracts",
         },
       ],
