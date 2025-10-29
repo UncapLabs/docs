@@ -1,5 +1,5 @@
 ---
-id: contracts
+id: deployed-contracts
 sidebar_position: 2
 slug: /contracts/deployed-contracts
 title: Contracts
