@@ -18,7 +18,9 @@ const config: Config = {
   // Set the production url of your site here
   url: "https://uncap.finance",
   // Check for BASE_URL environment variable first, then fallback to NODE_ENV check
-  baseUrl: process.env.NODE_ENV === "development" ? "/" : "/resources",
+  baseUrl:
+    process.env.BASE_URL ||
+    (process.env.NODE_ENV === "development" ? "/" : "/resources"),
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -36,7 +38,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          // routeBasePath: "/docs", // Docs will be served at /docs
+          routeBasePath: "/docs", // Docs will be served at /docs
         },
         blog: {
           showReadingTime: true,

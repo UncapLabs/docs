@@ -1,0 +1,217 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+/* Hero Section */
+.heroBanner {
+  padding: 5rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(180deg, var(--ifm-background-color) 0%, var(--ifm-background-surface-color) 100%);
+}
+
+.heroContent {
+  max-width: 56rem;
+  margin: 0 auto;
+}
+
+.heroTitle {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.heroTagline {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 0 auto 1rem;
+  max-width: 42rem;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.heroCopy {
+  margin: 0 auto 2.5rem;
+  max-width: 42rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.heroActions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Modern Buttons */
+.buttonPrimary,
+.buttonSecondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.875rem 1.5rem;
+  border-radius: 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  border: none;
+}
+
+.buttonPrimary {
+  background: #006CFF;
+  color: white;
+}
+
+.buttonPrimary:hover {
+  background: #0056CC;
+  color: white;
+  text-decoration: none;
+}
+
+.buttonSecondary {
+  background: white;
+  color: #242424;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.buttonSecondary:hover {
+  background: #f5f5f5;
+  color: #242424;
+  text-decoration: none;
+}
+
+.buttonPrimary svg,
+.buttonSecondary svg {
+  width: 6px;
+  height: 9px;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 3rem 1rem;
+  }
+
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .heroTagline {
+    font-size: 1.125rem;
+  }
+}
+
+/* Featured Blog Section */
+.featuredBlog {
+  padding: 4rem 0;
+  background: var(--ifm-background-surface-color);
+}
+
+.sectionTitle {
+  text-align: center;
+  margin-bottom: 0.75rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.sectionSubtitle {
+  text-align: center;
+  margin: 0 auto 3rem;
+  max-width: 42rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.blogGrid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .blogGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 996px) {
+  .blogGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Blog Cards */
+.blogCard {
+  position: relative;
+  border-radius: 1rem;
+  padding: 2rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  color: #242424;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  min-height: 18rem;
+}
+
+.blogTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.blogTag {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.5rem;
+  background: #f0f0f0;
+  color: #6B7280;
+}
+
+.blogTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0 0 0.75rem 0;
+}
+
+.blogDescription {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin: 0 0 1.5rem 0;
+  flex: 1;
+  color: #6B7280;
+}
+
+.blogLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #006CFF;
+  text-decoration: none;
+  margin-top: auto;
+}
+
+.blogLink:hover {
+  color: #0056CC;
+  text-decoration: none;
+}
+
+.blogLink svg {
+  width: 6px;
+  height: 9px;
+  flex-shrink: 0;
+}
