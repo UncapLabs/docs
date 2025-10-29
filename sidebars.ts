@@ -54,17 +54,17 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "category",
-      label: "Technical",
+      label: "Contracts",
       items: [
         {
           type: "doc",
-          id: "technical/audit",
+          id: "contracts/audit",
           label: "🔒 Audit",
         },
         {
           type: "doc",
-          id: "technical/contracts",
-          label: "📜 Contracts",
+          id: "contracts/deployed-contracts",
+          label: "📜 Deployed Contracts",
         },
       ],
     },
