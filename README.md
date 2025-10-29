@@ -40,7 +40,7 @@ This builds the site with local-friendly settings (`baseUrl: "/"`) and serves it
 pnpm run preview:prod
 ```
 
-This builds the site with production settings (`baseUrl: "/docs"`) and serves it locally using Wrangler to test the exact production build.
+This builds the site with production settings (`baseUrl: "/resources"`) and serves it locally using Wrangler to test the exact production build.
 
 ## Deployment
 
@@ -99,6 +99,6 @@ The site uses different base URLs for different environments:
 
 - **Development** (`pnpm start`): `baseUrl: "/"`
 - **Local Preview** (`pnpm preview`): `baseUrl: "/"`
-- **Production** (`pnpm deploy`): `baseUrl: "/docs"`
+- **Production** (`pnpm deploy`): `baseUrl: "/resources"`
 
-This ensures the site works correctly both locally and when deployed to `https://uncap.finance/docs/`.
+This ensures the site works correctly both locally and when deployed to `https://uncap.finance/resources/`.

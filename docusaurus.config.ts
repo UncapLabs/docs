@@ -20,7 +20,7 @@ const config: Config = {
   // Check for BASE_URL environment variable first, then fallback to NODE_ENV check
   baseUrl:
     process.env.BASE_URL ||
-    (process.env.NODE_ENV === "development" ? "/" : "/docs"),
+    (process.env.NODE_ENV === "development" ? "/" : "/resources"),
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -138,7 +138,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Uncap Finance.`
+      copyright: `Copyright © ${new Date().getFullYear()} Uncap Finance.`,
     },
     prism: {
       theme: prismThemes.github,
