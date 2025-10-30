@@ -11,7 +11,7 @@ Uncap serves as the **liquidity engine for Bitcoin DeFi**, functioning as essent
 
 ## What is Uncap?
 
-In its current iteration (Uncap v1), Uncap operates as a Bitcoin-centric borrowing protocol enabling users to deposit BTC as collateral and mint USDU, a USD-pegged stablecoin. The protocol delivers two core capabilities:
+In its current iteration (Uncap v1), Uncap operates as a Bitcoin-centric borrowing protocol enabling users to deposit BTC as collateral and mint USDU, an over-collateralized USD-pegged stablecoin. The protocol delivers two core capabilities:
 
 - **🏦 Borrow USDU**: Mint stablecoins against your Bitcoin collateral
 - **📈 Earn yield**: Generate returns by depositing USDU into the Stability Pool
