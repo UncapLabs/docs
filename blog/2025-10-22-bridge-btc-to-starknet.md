@@ -28,7 +28,7 @@ Before bridging, you'll need a Starknet wallet. We recommend [Ready Wallet](http
 
 ### From Bitcoin
 
-- **WBTC:** Use [Atomiq](https://atomiq.exchange) or [Garden Finance](https://garden.finance)
+- **WBTC:** Use [Atomiq](https://atomiq.exchange)
 - **LBTC:** Visit [Lombard](https://www.lombard.finance/app/stake)
 - **TBTC:** Use [Threshold](https://dashboard.threshold.network/tBTC/mint)
 
