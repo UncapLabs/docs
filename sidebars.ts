@@ -29,6 +29,11 @@ const sidebars: SidebarsConfig = {
           id: "uncap-protocol",
           label: "⚙️ The Uncap protocol",
         },
+        {
+          type: "doc",
+          id: "user-participation-rewards",
+          label: "🎁 User participation and rewards",
+        },
       ],
     },
     {
@@ -54,17 +59,33 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "category",
-      label: "Contracts",
+      label: "Security",
       items: [
         {
           type: "doc",
-          id: "contracts/audit",
+          id: "security/security-council",
+          label: "🛡️ Security Council",
+        },
+        {
+          type: "doc",
+          id: "security/audit",
           label: "🔒 Audit",
         },
         {
           type: "doc",
-          id: "contracts/deployed-contracts",
+          id: "security/deployed-contracts",
           label: "📜 Deployed Contracts",
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Resources",
+      items: [
+        {
+          type: "doc",
+          id: "brand-kit",
+          label: "🎨 Brand Kit",
         },
       ],
     },

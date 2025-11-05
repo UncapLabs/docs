@@ -10,7 +10,7 @@ description: Security audits for Uncap Finance protocol
 
 ## Battle-tested architecture
 
-The protocol is built on Liquity v2's battle-tested architecture, which underwent 13 independent security audits by leading firms including ChainSecurity, Dedaub, Certora, Coinspect, and Cantina.
+The protocol is built on Liquity v2's battle-tested architecture, which underwent [13 independent security audits](https://docs.liquity.org/v2-documentation/technical-docs-and-audits) by leading firms including ChainSecurity, Dedaub, Certora, Coinspect, and Cantina.
 
 ## Starknet implementation audit
 
