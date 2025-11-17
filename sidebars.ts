@@ -31,8 +31,8 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: "doc",
-          id: "user-participation-rewards",
-          label: "🎁 User participation and rewards",
+          id: "rewards",
+          label: "🎁 Rewards",
         },
       ],
     },
