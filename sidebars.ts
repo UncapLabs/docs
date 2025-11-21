@@ -76,6 +76,11 @@ const sidebars: SidebarsConfig = {
           id: "security/deployed-contracts",
           label: "📜 Deployed Contracts",
         },
+        {
+          type: "doc",
+          id: "security/smart-contract-interaction",
+          label: "🔧 Smart Contract Interaction",
+        },
       ],
     },
     {
