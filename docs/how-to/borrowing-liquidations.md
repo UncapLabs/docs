@@ -26,9 +26,7 @@ Each Starknet address can maintain multiple Positions, giving you flexibility to
 
 ## What collateral can I use?
 
-Currently, you can use WBTC as collateral.
-
-Additional BTC-derived assets will be supported in the future.
+You can use WBTC, tBTC, and solvBTC as collateral. Additional BTC-derived assets may be supported in the future.
 
 ## Is there a minimum debt requirement?
 
@@ -40,7 +38,7 @@ Uncap loans have no fixed repayment schedule. You can maintain your Position ind
 
 ## Is there a lockup period?
 
-No lockup periods apply to your deposits. You can withdraw collateral at any time, with one exception: withdrawals are temporarily restricted when a collateral market's total LTV exceeds 75%.
+No lockup periods apply to your deposits. You can withdraw collateral at any time, with one exception: withdrawals are temporarily restricted when a collateral market's total LTV exceeds 66.67%.
 
 ## How do I determine the right LTV for my Position?
 
@@ -50,7 +48,13 @@ You can create multiple Positions with different LTV strategies to diversify you
 
 ## How does liquidation work?
 
-Positions get liquidated when their LTV exceeds the maximum threshold (86.96% for WBTC).
+Positions get liquidated when their LTV exceeds the maximum threshold:
+
+| Collateral | Max LTV |
+|------------|---------|
+| WBTC | 87% |
+| tBTC | 80% |
+| solvBTC | 80% |
 
 Uncap primarily uses Stability Pools to handle liquidations. Each collateral market maintains its own Stability Pool that absorbs liquidated debt and collateral. When the Stability Pool lacks sufficient funds, the protocol employs Just-In-Time liquidations or redistributes debt and collateral across other borrowers in that market.
 
@@ -68,7 +72,7 @@ The 10 STRK comes from your refundable gas deposit, while the variable portion c
 
 ## What is the maximum Loan-To-Value ratio?
 
-WBTC positions can reach a maximum LTV of 86.96%.
+Maximum LTV varies by collateral: 87% for WBTC, 80% for tBTC, and 80% for solvBTC.
 
 ## What is the refundable gas deposit?
 
@@ -148,9 +152,9 @@ Automated looping functionality is currently in development.
 
 ## How does the protocol manage collateral risks?
 
-At launch, the only collateral type available is WBTC.
+Uncap currently supports WBTC, tBTC, and solvBTC as collateral, with the potential to add more in the future.
 
-However, Uncap can operate separate collateral markets for different collateral types, each with dedicated Stability Pools, independent user-set interest rates, and specific LTV parameters.
+Uncap operates separate collateral markets for each collateral type, each with dedicated Stability Pools, independent user-set interest rates, and specific LTV parameters.
 
 Risk mitigation includes temporary borrowing restrictions during low collateralization periods, redemption logic that prioritizes collaterals with weaker Stability Pool backing, and emergency collateral shutdown capabilities to preserve system balance.
 
@@ -186,7 +190,7 @@ To accomplish this, Uncap implements two safety thresholds based on the system's
 
 ### Critical Threshold Restrictions
 
-When the TCR of a borrow market falls below its Critical Threshold (150% for WBTC), the protocol prohibits the creation of new debt in that market.
+When the TCR of a borrow market falls below its Critical Threshold (150% for all collateral types), the protocol prohibits the creation of new debt in that market.
 
 Collateral withdrawals remain permitted only when accompanied by a debt repayment of equal or greater value—meaning the action must improve both the individual Collateral Ratio (CR) and the overall TCR. During this period, borrowers can continue to repay debt or add collateral to their positions.
 
@@ -194,7 +198,7 @@ The liquidation threshold (maximum Loan-to-Value ratio) for individual Positions
 
 ### Shutdown Threshold and Market Closure
 
-If the TCR drops below the Shutdown Threshold (110% for WBTC), or in the event of an oracle failure, the protocol triggers a shutdown of the affected borrow market. This permanently disables all borrowing operations except for closing existing Positions.
+If the TCR drops below the Shutdown Threshold (110% for all collateral types), or in the event of an oracle failure, the protocol triggers a shutdown of the affected borrow market. This permanently disables all borrowing operations except for closing existing Positions.
 
 Upon triggering a collateral shutdown, the protocol activates and incentivizes single-collateral redemptions to repay the entire debt of the affected market as quickly as possible.
 

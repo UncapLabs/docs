@@ -10,11 +10,11 @@ description: Frequently asked questions about the Uncap protocol, inspired by Li
 
 ## Borrowing
 
-Users deposit WBTC (or other Bitcoin-derived assets) as collateral to mint USDU stablecoins through Positions (individual loan management vaults represented as NFTs). 
+Users deposit WBTC, tBTC, solvBTC (or other Bitcoin-derived assets) as collateral to mint USDU stablecoins through Positions (individual loan management vaults represented as NFTs). 
 
 What makes Uncap unique is that borrowers set their own interest rates rather than accepting algorithmically-determined rates.
 
-Each Position requires a minimum debt of 200 USDU and can reach up to 86.96% loan-to-value ratio for WBTC.
+Each Position requires a minimum debt of 200 USDU. Maximum loan-to-value ratios vary by collateral: ~87% for WBTC, 80% for tBTC, and 80% for solvBTC.
 
 Loans have no fixed repayment schedule, allowing indefinite borrowing as long as the position remains healthy. Your chosen interest rate determines both your borrowing costs and your position in the redemption queue: lower rates mean lower costs but higher redemption risk.
 
@@ -24,7 +24,7 @@ Borrowing costs include ongoing interest based on your self-set rate plus an upf
 
 ## Liquidations
 
-Positions are liquidated when their LTV exceeds the maximum threshold (86.96% for WBTC). Uncap primarily uses Stability Pools to handle liquidations. Each collateral market maintains its own pool that absorbs liquidated debt and distributes collateral to depositors.
+Positions are liquidated when their LTV exceeds the maximum threshold (~87% for WBTC, 80% for tBTC and solvBTC). Uncap primarily uses Stability Pools to handle liquidations. Each collateral market maintains its own pool that absorbs liquidated debt and distributes collateral to depositors.
 
 When a Stability Pool lacks sufficient funds, the protocol employs two fallback mechanisms:
 - **Just-in-time liquidation**: Liquidators provide USDU and receive 105% of equivalent value in Bitcoin

@@ -10,7 +10,7 @@ description: Learn about USDU stablecoin, earning opportunities, and yield gener
 
 ## What is USDU?
 
-USDU is Uncap's USD-pegged stablecoin, overcollateralized by WBTC and other Bitcoin-derived assets. It maintains its peg through redemption mechanisms and market-driven interest rate adjustments.
+USDU is Uncap's USD-pegged stablecoin, overcollateralized by WBTC, tBTC, and solvBTC. It maintains its peg through redemption mechanisms and market-driven interest rate adjustments.
 
 ## What advantages does USDU offer over other stablecoins?
 
