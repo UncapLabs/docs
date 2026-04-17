@@ -7,6 +7,10 @@ description: Learn about Uncap, the liquidity engine for Bitcoin DeFi, and how i
 
 # 👋 Introduction to Uncap
 
+:::warning Community-run notice
+Uncap is no longer operated by Uncap Labs GmbH. The website and documentation are provided on an "as is" basis as a community-run service until August 2026 by Web3xplore SRL, a Belgian company (company number 1008728338). No representations, warranties, support, or ongoing obligations are provided.
+:::
+
 Uncap serves as the **liquidity engine for Bitcoin DeFi**, functioning as essential infrastructure that powers the emerging economy built around productive Bitcoin utilization.
 
 ## What is Uncap?

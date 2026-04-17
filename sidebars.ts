@@ -64,7 +64,7 @@ const sidebars: SidebarsConfig = {
         {
           type: "doc",
           id: "security/security-council",
-          label: "🛡️ Security Council",
+          label: "🔒 Immutability",
         },
         {
           type: "doc",
